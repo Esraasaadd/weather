@@ -110,9 +110,10 @@ input[type="text"]:focus{
     .site-table .container{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .table{
-        width: 100%;
+        width: 80%;
     }
     .table1 h1 , .num{
         font-size: 4.4285714286rem;
