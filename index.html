@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>weather</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel='stylesheet'  href='css/style.css'>
+</head>
+<body>
+    <!--strat of the header-->
+    <nav class="navbar navbar-expand-lg navbar-dark p-5">
+        <div class="container-fluid">
+            <i class="fa-solid fa-cloud-moon text-info"></i>
+            <a class="navbar-brand" href="#">Weather</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active home-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Live</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+        <!--end of the header-->
+    <div class="site-search">
+        <div class="container p-5">
+            <input type="text"
+            name="" 
+            id="inputValue" 
+            placeholder="find your location..." 
+            class="form-control"
+            oninput="allFun()">
+        </div>
+    </div>
+    <div class="site-table">
+        <div class="container d-flex justify-content-center mb-4 p-2">
+            <div class="table table1 text-white">
+                <div class="d-flex justify-content-between">
+                    <p></p>
+                    <p class="dayMonth"></p>    
+                </div>
+                <div class="content">
+                    <p></p>
+                    <div class="num d-flex align-items-center">
+                        <h1></h1><sup>o</sup>c
+                    </div>
+                    <div class="icon">
+                        <img src="" alt="">
+                        <p class="text-info"></p>
+                    </div>
+                </div>
+                <img src="img/icon-umberella.png" alt="">
+                <p class="icon1 d-inline p-2"></p>
+                <img src="img/icon-wind.png" alt="">
+                <p class="icon2 d-inline p-2"></p>
+                <img src="img/icon-compass.png" alt="">
+                <p class="icon3 d-inline p-2"></p>
+            </div>
+            <div class="table table2 text-white">
+                <div class="content d-flex flex-column align-items-center text-center ">
+                    <p class="date"></p>
+                    <div class="content d-flex flex-column align-items-center text-center p-5">
+                        <img src="" alt="">
+                        <h2></h2>
+                        <h6></h6>
+                        <p class="text-info status"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="table table3 text-white">
+                <div class="content d-flex flex-column align-items-center text-center ">
+                    <p class="date"></p>
+                    <div class="content d-flex flex-column align-items-center text-center p-5">
+                        <img src="" alt="">
+                        <h2></h2>
+                        <h6></h6>
+                        <p class="text-info status"></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--start of the footer-->
+        <footer class="text-white">
+            <div class="cotainer mb-3">
+                <div class="row">
+                    <div class="input  col-lg-8 col-md-6">
+                        <input type="text" name="" id="" placeholder="enter your email to subscribe..." class="form-control">
+                    </div>
+                    <div class="icons col-lg-3 col-md-6  mt-3 ms-5">
+                        <i class="fa-brands fa-facebook text-info"></i>
+                        <i class="fa-brands fa-twitter text-info"></i>
+                        <i class="fa-brands fa-google-plus-g text-info"></i>                    
+                        <i class="fa-brands fa-pinterest text-info"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="ms-3">Copyright 2014 Company name. Designed by name. All rights reserved</p>
+        </footer>
+        <!--end of the footer-->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
